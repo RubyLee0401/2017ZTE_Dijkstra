@@ -1,0 +1,91 @@
+**********Pass All Must constraints**********
+passVertex = 11
+distance = 14
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 5 => 12 => 6 => 7 => 8 => 14 => 13 => 17
+
+********No constraints**********
+passVertex = 5
+distance = 8
+pass must edges = NULL
+pass must Vertexes = NULL
+0 => 3 => 6 => 13 => 17
+
+********Only less equal max Pass Num Constraints********
+passVertex = 5
+distance = 8
+pass must edges = NULL
+pass must Vertexes = NULL
+0 => 3 => 6 => 13 => 17
+
+**********Pass All Must Edges constraints**********
+passVertex = 8
+distance = 10
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes = NULL
+0 => 2 => 4 => 5 => 6 => 14 => 13 => 17
+
+**********Pass All Must Vertexes constraints**********
+passVertex = 7
+distance = 8
+pass must edges = NULL
+pass must Vertexes =  12 , 7
+0 => 3 => 7 => 6 => 12 => 13 => 17
+
+**********Pass Weight constraints**********
+passVertex = 11
+distance = 14
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 5 => 12 => 6 => 7 => 8 => 14 => 13 => 17
+
+**********other reference paths*********
+passVertex = 12
+distance = 14
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 5 => 6 => 7 => 8 => 14 => 13 => 12 => 13 => 17
+
+passVertex = 13
+distance = 14
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 9 => 11 => 16 => 12 => 6 => 7 => 8 => 14 => 13 => 17
+
+passVertex = 14
+distance = 15
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 3 => 7 => 3 => 2 => 4 => 9 => 11 => 16 => 12 => 13 => 14 => 13 => 17
+
+passVertex = 15
+distance = 16
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 9 => 11 => 16 => 12 => 6 => 7 => 8 => 14 => 13 => 17 => 13 => 17
+
+passVertex = 16
+distance = 17
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12 , 7
+0 => 2 => 4 => 5 => 10 => 11 => 16 => 12 => 6 => 7 => 8 => 14 => 15 => 14 => 13 => 17
+
+passVertex = 16
+distance = 17
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  12
+0 => 2 => 4 => 5 => 10 => 11 => 16 => 12 => 13 => 14 => 15 => 14 => 15 => 14 => 13 => 17
+
+passVertex = 16
+distance = 16
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes =  7
+0 => 3 => 2 => 5 => 4 => 2 => 3 => 7 => 8 => 14 => 13 => 17 => 13 => 17 => 13 => 17
+
+passVertex = 16
+distance = 17
+pass must edges =  {13,14} , {2,4}
+pass must Vertexes = NULL
+0 => 3 => 2 => 4 => 5 => 6 => 8 => 14 => 15 => 14 => 13 => 14 => 13 => 17 => 13 => 17
+
